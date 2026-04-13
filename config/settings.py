@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-change-this-in-production-abc123xyz789'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1',"nrbtest.pythonanywhere.com","https://itp-frontend-nu.vercel.app"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1',"nrbtest.pythonanywhere.com","https://itp-frontend-test.vercel.app"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -101,7 +101,8 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://localhost:3001',
-    "https://itp-frontend-nu.vercel.app",
+    "https://itp-frontend-test.vercel.app",
+
 ]
 
 CORS_ALLOW_CREDENTIALS = True
